@@ -1,0 +1,95 @@
+.global-font-family {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: 	rgb(211,211,211)
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+ 
+.readme-wrapper > a {
+    text-decoration: none;
+}
+
+.readme-wrapper :hover {
+    color: lawngreen;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+span {
+    color: lightseagreen;
+    font-weight: bolder;
+}
+
+.boxes {
+    display: block;
+    margin-right: 30em;
+    padding: 2em;
+    border: solid orange;
+    border-radius: 30px;
+    width: 30em;
+
+}
+
+#box1, #box2, #box3, #box4 {
+    background-color: rgb(94, 77, 112);
+   
+}
+
+.imgs {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color:seagreen;
+    position: relative;
+    left: 3em;
+    top: 3em;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+.original {
+    color: red;
+}
+
+.additional {
+    color: green;
+}
+
+#show1 {
+    color: limegreen;
+}
+
+#show2 {
+    color: magenta;
+}
+
+#show3 {
+    color: mediumorchid;
+}
+
+#show4 {
+    color: olive;
+} 
+
+#show5 {
+    color: peru;
+}
+
+ul {
+    color: peru;
+    border: 2px solid black;
+}
+
+.star {
+    color: orangered;
+}
+
+#wars {
+    color: seagreen;
+}
+

@@ -1,78 +1,18 @@
-let myName = "Reagan"; //Output: Reagan
-
-const numOfStates = 50; //Output: 50
-
-let add = 5 + 4; //Output: 9
-
-let veggies = [
-  "Broccoli",
-  "Cauliflower",
-  "Asparagus",
-  "Brussel Sprouts",
-  "Cucumbers",
-];
-for (i = 0; i < veggies.length; i++) {
-  console.log(veggies[i]);
-}
+let friends = ["Rebecca", "John", "Jake", "Connor", "Jordan"];
 
 
-
-function sayHello() {
-  alert("Hello!");
-}
-sayHello();
-
-
-
-
-
-function checkAge(name, age) {
-  if (age < 21) {
-    alert("Sorry " + name + ", you aren't old enough to view this page!");
-  }
-}
-
-checkAge("Reagan", 25);
-checkAge("Abby", 27);
-checkAge("James", 18);
-checkAge("John", 17);
-
-let objects = [
-  {
-    name: "Reagan",
-    age: 25,
-  },
-  {
-    name: "Rebecca",
-    age: 30,
-  },
-  {
-    name: "Dan",
-    age: 20,
-  },
-  {
-    name: "Will",
-    age: 26,
-  },
-  {
-    name: "Connor",
-    age: 20,
-  },
-];
-
-for (i = 0; i < objects.length; i++) {
-  checkAge(objects[i].name, objects[i].age);
-}
-
-function getLength(word) {
-    console.log(word.length);
-    if (word.length == 12) {
-        console.log('The world is nice and even!');
-    } else {
-        console.log('The world is an odd place!');
+function linesOfCode() {
+    loop1: for (i = 0; i < friends.length; i++) {
+        loop2: for (j = 99; j > 0; j--) {
+          if (j > 2) {
+            console.log(`${j} lines of code in the file, ${j} lines of code; ${friends[i]} strikes one out, clears it all out, ${j - 1} lines of code in the file.`);
+          } else if (j === 2) {
+            console.log(`${j} lines of code in the file, ${j} lines of code; ${friends[i]} strikes one out, clears it all out, ${j - 1} line of code in the file`);
+          } else {
+            console.log(`${j} line of code in the file, ${j} line of code; ${friends[i]} strikes one out, clears it all out, now there is no code in the file`);
+          }
+        }
     }
 }
-getLength("Hello World!");
 
-
-
+linesOfCode()
